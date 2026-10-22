@@ -66,11 +66,20 @@
       </div>
 
       <div class="hero-visual">
-        <div class="visual-label">THE LOOP SHELF SYSTEM <span>01 / 04</span></div>
+        <div class="visual-label">
+          THE LOOP SHELF SYSTEM <span id="slide-count">01 / 04</span>
+        </div>
         <div class="shelf-scene">
+          <div class="shelf-controls">
+           <button type="button" onclick="changeSlide(-1)">&#10094;</button>
+           <button type="button" onclick="changeSlide(1)">&#10095;</button>
+          </div>
           <div class="shelf-shadow"></div>
           <div class="shelf">
-            <img src="./images/frontpage.jpeg" alt="Scenic view" style="max-width:100%; height:auto;">
+            <img
+              id="shelf-image"
+              src="./images/frontpage.jpeg"
+              alt="Loop Shelf System">
           </div>
           <div class="floating-note note-top">↻ <span>DESIGNED<br>FOR REUSE</span></div>
           <div class="floating-note note-bottom">01 — INFINITE POSSIBILITIES</div>
