@@ -21,8 +21,8 @@ navMenu.querySelectorAll("a").forEach((link) => {
 const shelfImages = [
   "./images/frontpage.jpeg",
   "./images/image.png",
-  "./images/image2.jpeg",
-  "./images/image3.jpeg"
+  "./images/image2.PNG",
+  "./images/image3.PNG"
 ];
 
 let currentSlide = 0;
