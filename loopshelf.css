@@ -1433,10 +1433,16 @@ button {
 }
 /* Mobile responsive design */
 @media screen and (max-width: 768px) {
+  .shelf-scene .shelf {
+    height: 280px;
+  }
+
   #shelf-image {
     width: 100%;
     height: 100%;
     max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
+    object-position: center;
   }
 }
